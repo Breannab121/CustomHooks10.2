@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container1 {
+  border: 1px solid gray;
+  margin: 100px;
+  padding: 50px;
+}
+
+.container2 {
+  border: 1px solid gray;
+  margin: 100px;
+  padding: 50px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+ul {
+  list-style: none;
+
+}
+.total {
+  display: flex;
+  justify-content: center;
+}
+
+.totalPerPage {
+  align-items: center;
+  display: flex;
+}
+
+.totalItems {
+  margin-left: 25rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 12rem;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
